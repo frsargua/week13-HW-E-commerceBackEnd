@@ -1,0 +1,37 @@
+Todo:
+-   Add env file and connect to db using sequelize.
+-   Enter schema and seed commands to create a development database and seed it.
+- When i enter a start command, it invokes the application, then the server is started and the sequelize models are synced to the mysql database.
+
+
+Routes: Json form
+CATEGORIES:
+-   GET
+    -   404 not found
+    -   500 server error
+-   GET ID
+    -   404 not found
+    -   500 server error
+-   POST
+    -   400 couldnt understand the request
+    -   500 server error
+-   PUT
+    -   400 couldnt understand the request
+    -   404 not found
+    -   500 server error
+-   DELETE
+    -   404 not found
+    -   500 server error
+
+
+PRODUCTS
+-   GET
+-   POST
+-   PUT
+-   DELETE 
+
+TAGS
+-   GET
+-   POST
+-   PUT
+-   DELETE
